@@ -50,19 +50,19 @@ def get_uptime():
     minutes, seconds = divmod(remainder, 60)
     return f"{days}d {hours}h {minutes}m {seconds}s"
 
-TOKEN = '8673473430:AAEA60JDHYV1KMDLK2HY_7YzXzcLPGbadTQ'
-OWNER_ID = 8062871988
-ADMIN_ID = 8062871988
-YOUR_USERNAME = '@flirts_x'
-UPDATE_CHANNEL = 'https://t.me/osintxher'
+TOKEN = ''
+OWNER_ID = 
+ADMIN_ID = 
+YOUR_USERNAME = ''
+UPDATE_CHANNEL = ''
 
 # This group receives the uploaded files only. Approvals and reports stay in admin DMs.
-FILE_LOG_GROUP_ID = -1004446023029
-REJECT_CONTACT = '@heartfailer'
+FILE_LOG_GROUP_ID = -
+REJECT_CONTACT = '@'
 
-A4F_API_URL = "https://samuraiapi.in/v1/chat/completions"
-A4F_API_KEY = "sk-NK6SS9tpWghyFJwkZLoCis1sMaF6RwQ5WF09mUoKKR0VKCm7"
-A4F_MODEL = "provider10-claude-sonnet-4-20250514(clinesp)"
+A4F_API_URL = ""
+A4F_API_KEY = ""
+A4F_MODEL = ""
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
